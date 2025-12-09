@@ -1,0 +1,174 @@
+/* ============================================================ 
+   PALETA DE COLORES K-TRINA
+   Blanco      #ffffff
+   Gris suave  #f2f2f2
+   Rosa claro  #f9c7d4
+   Rosa fuerte #e48fa8
+============================================================ */
+
+/* Fuente general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* =================== BANNER =================== */
+#banner {
+    background-color: #f9c7d4 !important;
+    color: #333;
+    font-weight: bold;
+}
+
+/* =================== NAVBAR =================== */
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 2px solid #f9c7d4;
+}
+
+.navbar-brand span {
+    color: #e48fa8;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #e48fa8 !important;
+}
+
+/* =================== CARRUSEL =================== */
+.carousel-caption h5,
+.carousel-caption p {
+    background: none !important;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-shadow: 0 0 6px rgba(0,0,0,0.6); 
+}
+
+/* =================== TITULOS =================== */
+h1, h2, h3 {
+    color: #e48fa8;
+    font-weight: 700;
+}
+
+/* =================== CARDS =================== */
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #f2f2f2;
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    color: #e48fa8;
+    font-weight: 600;
+}
+
+/* ============================================================
+   BOTONES — TODOS ROSA CLARO (SE MANTIENEN IGUAL)
+============================================================ */
+.btn {
+    background-color: #f9c7d4 !important;
+    color: #333 !important;
+    border: 1px solid #e48fa8 !important;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f7b1c3 !important;
+    transform: scale(1.03);
+}
+
+/* =================== FORMULARIOS =================== */
+/* Inputs ahora en gris suave */
+.form-control {
+    background-color: #f2f2f2 !important;
+    border: 1px solid #e48fa8 !important;
+    color: #333 !important;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.form-control::placeholder {
+    color: #8b5a67 !important;
+    opacity: 0.7;
+}
+
+.form-control:hover {
+    background-color: #eaeaea !important;
+}
+
+.form-control:focus {
+    background-color: #ffffff !important;
+    border-color: #e48fa8 !important;
+    box-shadow: 0 0 5px rgba(228, 143, 168, 0.6) !important;
+}
+
+/* =================== TESTIMONIOS =================== */
+.testimonio-vip {
+    background: #fff5f8;
+    border-left: 5px solid #e48fa8;
+}
+
+/* =================== FOOTER =================== */
+/* Footer ahora claro */
+footer {
+    background-color: #f2f2f2 !important;
+    color: #333 !important;
+}
+
+/* Texto y hover de iconos */
+footer a {
+    color: #333 !important;
+}
+
+footer a:hover {
+    color: #e48fa8 !important;
+    transition: .3s;
+}
+
+footer i {
+    padding: 10px;
+    transition: transform .3s ease;
+}
+
+footer i:hover {
+    transform: scale(1.2);
+    color: #e48fa8 !important;
+}
+
+/* =================== WHATSAPP FLOTANTE =================== */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: transform .3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.15);
+}
+
